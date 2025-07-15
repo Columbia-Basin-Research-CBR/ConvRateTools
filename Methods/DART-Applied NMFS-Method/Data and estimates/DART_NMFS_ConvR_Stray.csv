@@ -1,8 +1,8 @@
 esu_type,stray_rate
-MC_Sthd,4.7
-SR_Ch1,2.0
-SR_Ch3,3.3
-SR_Sock,0.0
-SR_Sthd,4.7
-UC_Ch1,2.0
-UC_Sthd,4.7
+MC_Sthd,0.047
+SR_Ch1,0.020
+SR_Ch3,0.033
+SR_Sock,0.000
+SR_Sthd,0.047
+UC_Ch1,0.020
+UC_Sthd,0.047
