@@ -1,0 +1,17 @@
+con_year,population,transport,bon_ct,mcn_ct,bon_to_mcn,zone6harvest,stray,bon_to_mcn_adjusted
+2009,CombinedSock_abvMCN,C,328,240,0.7317,0.0547,0,0.7741
+2010,CombinedSock_abvMCN,C,975,761,0.7805,0.0676,0,0.8371
+2011,CombinedSock_abvMCN,C,1125,697,0.6196,0.0692,0,0.6656
+2012,CombinedSock_abvMCN,C,681,464,0.6814,0.0879,0,0.7471
+2013,CombinedSock_abvMCN,C,295,205,0.6949,0.0434,0,0.7264
+2014,CombinedSock_abvMCN,C,509,337,0.6621,0.0500,0,0.6969
+2015,CombinedSock_abvMCN,C,1085,339,0.3124,0.0589,0,0.3320
+2016,CombinedSock_abvMCN,C,323,246,0.7616,0.0487,0,0.8006
+2017,CombinedSock_abvMCN,C,166,124,0.7470,0.0511,0,0.7872
+2018,CombinedSock_abvMCN,C,102,87,0.8529,0.0399,0,0.8883
+2019,CombinedSock_abvMCN,C,25,25,,0.0177,0,
+2020,CombinedSock_abvMCN,C,325,279,0.8585,0.0446,0,0.8986
+2021,CombinedSock_abvMCN,C,371,269,0.7251,0.0628,0,0.7736
+2022,CombinedSock_abvMCN,C,503,428,0.8509,0.0430,0,0.8891
+2023,CombinedSock_abvMCN,C,685,502,0.7328,0.0673,0,0.7858
+2024,CombinedSock_abvMCN,C,518,447,0.8629,0.0492,0,0.9076

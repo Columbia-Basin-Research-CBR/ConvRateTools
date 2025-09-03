@@ -1,8 +1,9 @@
-esu_type,stray_rate
-MC_Sthd_abvMCN,0.047
-SR_Ch1,0.020
-SR_Ch3,0.033
-SR_Sock,0.000
-SR_Sthd,0.047
-UC_Ch1,0.020
-UC_Sthd,0.047
+population,stray_rate
+MidColSthd,0.047
+SnakeSpSuChin,0.020
+SnakeFaChin,0.033
+SnakeSock,0.000
+CombinedSock,0.000
+SnakeSthd,0.047
+UpColSpChin,0.020
+UpColSthd,0.047
