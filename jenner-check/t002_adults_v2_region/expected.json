@@ -1,0 +1,26 @@
+{
+    "_captured_at": "2026-06-13T16:21:00Z",
+    "_captured_run_id": "r_019ec1cc284b7f63a9c70090b1b5248d",
+    "status": "ok",
+    "exit_code": 0,
+    "log_contains": [
+        "NOTE: Wrote sasdata.upstream_at_BON_v1 (12 rows, 14 columns).",
+        "NOTE: DATA sasdata.upstream_at_BON_v2",
+        "NOTE: Wrote sasdata.upstream_at_BON_v2 (12 rows, 16 columns).",
+        "NOTE: PROC SORT statement used.",
+        "NOTE: PROC FREQ statement used."
+    ],
+    "log_does_not_contain": [
+        "ERROR:",
+        "[JENNER-ERROR"
+    ],
+    "output_contains": [
+        "Snake",
+        "Upper Col",
+        "Adult"
+    ],
+    "diagnostics": {
+        "parse_warnings": [],
+        "runtime_warnings": []
+    }
+}

@@ -1,0 +1,165 @@
+                                                     adults at any ladder 1.sas                                                      
+
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: 
+Observations:  11
+Variables:     34
+
+Variables (in alphabetical order):
+
+  #  Variable       Type    Len  Format       Label
+---  -------------  ----  -----  -----------  --------------------------
+  1  adult_year      Num      8               adult_year
+  2  age_at_return   Num      8               age_at_return
+  3  bonacnt         Num      8               >= 1 if at BON ladders
+  4  coord_id       Char      8               Tagging coordinator
+  5  gsbypasd        Num      8               gsbypasd
+  6  lgbypasd        Num      8               lgbypasd
+  7  lgracnt         Num      8               lgracnt
+  8  lmbypasd        Num      8               lmbypasd
+  9  lmtoriv         Num      8               lmtoriv
+ 10  mcbypasd        Num      8               mcbypasd
+ 11  mcnacnt         Num      8               mcnacnt
+ 12  mctoriv         Num      8               mctoriv
+ 13  migr_yr         Num      8                Downstream migration year
+ 14  mort_site      Char      8               mort_site
+ 15  mor_in          Num      8               mor_in
+ 16  obsdat10        Num      8  DATETIME20.  Date @ MCN ladders
+ 17  obsdat27        Num      8  DATETIME20.   Date @ WELLSACNT
+ 18  obsdat8         Num      8  DATETIME20.  Date @ BON ladders
+ 19  obsdat9         Num      8  DATETIME20.  Date @ LGR ladders
+ 20  priestjcnt      Num      8               priestjcnt
+ 21  rear_type      Char      1               rear_type
+ 22  recap_in        Num      8               recap_in
+ 23  rel_site       Char      8               rel_site
+ 24  run            Char      1               run
+ 25  site           Char      8               site
+ 26  species        Char      1               species
+ 27  tagyear         Num      8               tagyear
+ 28  tag_id         Char     14               tag_id
+ 29  tag_km         Char     12               River KM of tagging
+ 30  tag_km_num      Num      8               tag_km_num
+ 31  tag_len         Num      8               tag_len
+ 32  tag_mon         Num      8               tag_mon
+ 33  tag_wt          Num      8               tag_wt
+ 34  wellsacnt       Num      8               wellsacnt
+
+-------------------------------------------------------------------------------
+
+                                                     adults at any ladder 1.sas                                                      
+
+                                                         The MEANS Procedure
+
+ Variable                          N                Minimum                   Mean                Maximum                    Sum              Std Dev
+ ----------------------------------------------------------------------------------------------------------------------------------------------------
+ species                          11              1.0000000              1.5454545              3.0000000             17.0000000            0.9341987
+ run                              11              1.0000000              1.8181818              3.0000000             20.0000000            0.9816498
+ River KM of tagging              11            522.0010000            528.6008182            540.5000000           5814.6090000            8.7026266
+ mort_site                         .                      .                      .                      .                      .                    .
+  Downstream migration year       11           1998.0000000           2002.7272727           2005.0000000          22030.0000000            1.7939292
+ >= 1 if at BON ladders           11              1.0000000              1.0000000              1.0000000             11.0000000            0.0000000
+ mcnacnt                          11              0.0000000              0.9090909              1.0000000             10.0000000            0.3015113
+ lgracnt                          11              0.0000000              0.2727273              1.0000000              3.0000000            0.4670994
+ wellsacnt                        11              0.0000000              0.0000000              0.0000000              0.0000000            0.0000000
+ priestjcnt                       11              0.0000000              0.0000000              0.0000000              0.0000000            0.0000000
+ gsbypasd                         11              0.0000000              0.0000000              0.0000000              0.0000000            0.0000000
+ lgbypasd                         11              0.0000000              0.0909091              1.0000000              1.0000000            0.3015113
+ lmbypasd                         11              0.0000000              0.0000000              0.0000000              0.0000000            0.0000000
+ mcbypasd                         11              0.0000000              0.0000000              0.0000000              0.0000000            0.0000000
+ lmtoriv                          11              0.0000000              0.0000000              0.0000000              0.0000000            0.0000000
+ mctoriv                          11              0.0000000              0.0000000              0.0000000              0.0000000            0.0000000
+ recap_in                         11              0.0000000              0.0000000              0.0000000              0.0000000            0.0000000
+ mor_in                           11              0.0000000              0.0000000              0.0000000              0.0000000            0.0000000
+ tag_km_num                       11            522.0010000            528.6008182            540.5000000           5814.6090000            8.7026266
+ tag_len                          11            140.0000000            171.0000000            230.0000000           1881.0000000           33.9823484
+ tag_mon                          11              4.0000000              4.8181818              6.0000000             53.0000000            0.6030227
+ tag_wt                           11             18.0000000             50.4545455            120.0000000            555.0000000           41.0691213
+ tagyear                          11           1998.0000000           2002.7272727           2005.0000000          22030.0000000            1.7939292
+ Date @ BON ladders               11     02JUL2000:08:00:00     1443702354.5454545     05JUL2010:08:00:00     28MAR2463:16:45:00     75774005.5321264
+ Date @ LGR ladders                3     30JUN2005:11:00:00     1457257500.0000000     11JUL2007:08:15:00     14JUL2098:05:15:00     36809924.1160587
+ Date @ MCN ladders                .                      .                      .                      .                      .                    .
+  Date @ WELLSACNT                 .                      .                      .                      .                      .                    .
+ adult_year                       11           2000.0000000           2005.1818182           2010.0000000          22057.0000000            2.4007575
+ age_at_return                    11              2.0000000              2.4545455              7.0000000             27.0000000            1.5075567
+ ----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                                                     adults at any ladder 1.sas                                                     2
+
+                                                         The FREQ Procedure
+
+                                        Cumulative    Cumulative
+adult_year    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------
+2000                  1      9.09            1         9.09
+2004                  2     18.18            3        27.27
+2005                  4     36.36            7        63.64
+2006                  2     18.18            9        81.82
+2007                  1      9.09           10        90.91
+2010                  1      9.09           11       100.00
+
+                                           Cumulative    Cumulative
+age_at_return    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------
+2                       10     90.91           10        90.91
+7                        1      9.09           11       100.00
+
+                                     Cumulative    Cumulative
+species    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------
+1                  8     72.73            8        72.73
+3                  3     27.27           11       100.00
+
+                                       Cumulative    Cumulative
+rear_type    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------
+H                    3     27.27            3        27.27
+W                    8     72.73           11       100.00
+
+                                 Cumulative    Cumulative
+run    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------
+1              6     54.55            6        54.55
+2              1      9.09            7        63.64
+3              4     36.36           11       100.00
+
+                                                        Cumulative    Cumulative
+ Downstream migration year    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------------------
+1998                                  1      9.09            1         9.09
+2002                                  2     18.18            3        27.27
+2003                                  5     45.45            8        72.73
+2004                                  2     18.18           10        90.91
+2005                                  1      9.09           11       100.00
+
+                                                 Cumulative    Cumulative
+River KM of tagging    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------------
+522.001                        1      9.09            1         9.09
+522.014                        1      9.09            2        18.18
+522.111                        1      9.09            3        27.27
+522.300                        1      9.09            4        36.36
+522.333                        1      9.09            5        45.45
+522.700                        1      9.09            6        54.55
+522.900                        1      9.09            7        63.64
+539.050                        1      9.09            8        72.73
+539.100                        1      9.09            9        81.82
+539.600                        1      9.09           10        90.91
+540.500                        1      9.09           11       100.00
+
+                                  Cumulative    Cumulative
+site    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+LGR             7     63.64            7        63.64
+MCN             3     27.27           10        90.91
+PRD             1      9.09           11       100.00
+
+                                                 Cumulative    Cumulative
+Tagging coordinator    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------------
+DMM                            7     63.64            7        63.64
+EWB                            4     36.36           11       100.00
+
