@@ -1,0 +1,9 @@
+{
+    "bundle": "t003_snake_conversion_rates",
+    "source_file": "Methods/NMFS-Method/4 CPaulsen archived files/Paulsen 2002-2008/Charlie 08-2012/data/2008 SAS data extract pgms.sas",
+    "source_program": "SNAKE V5-BON-MCN-LGR 01-18-08.sas (program 3 of 4 in the file)",
+    "source_blob_sha": "42eca42fb59bc81a753a863f259d96f9a9067fe0",
+    "source_commit": "5fb2911b692e8a74a4ed6976c1d79d2465df1caa",
+    "tier": "mock_data",
+    "notes": "Third program: the Snake River conversion-rate pipeline end to end. Reads Zone-6 harvest rates and the region-classified detections, derives spp / spp_run / transported, aggregates BON/MCN/LGR ladder counts with PROC SUMMARY (CLASS adult_year life_stage rear_type transported; VAR bonacnt mcnacnt lgracnt; OUTPUT SUM=), merges the summary against the harvest rates by spp spp_run adult_year, and computes raw and harvest/stray-adjusted BON->MCN and BON->LGR survival rates, finishing with PROC PRINT and PROC EXPORT to CSV. The two inputs (sasdata.harvest_for_sas_fac_07 and sasdata.upstream_at_BON_v2) are not in the repo, so autoexec.sas supplies mocks with the exact columns and join keys the program reads. The author's analytic logic, rate formulas, labels, and formats are kept verbatim; the libname is moved to autoexec, the PROC EXPORT outfile is redirected from the original Windows path to a relative ./Snake_BON_to_MCN_to_LGR_2008_01_18.csv, and one cosmetic 'options sysprintfont=' line was removed."
+}

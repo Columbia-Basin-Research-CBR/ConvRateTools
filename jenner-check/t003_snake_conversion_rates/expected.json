@@ -1,0 +1,26 @@
+{
+    "_captured_at": "2026-06-13T16:22:00Z",
+    "_captured_run_id": "r_019ec1cdffca7b12855aaef145f5736d",
+    "status": "ok",
+    "exit_code": 0,
+    "log_contains": [
+        "NOTE: Wrote sasdata.harvest_for_sas_fac_07 (6 rows, 6 columns).",
+        "NOTE: DATA upstream_at_BON_v3",
+        "NOTE: Output dataset Snake_at_BONA has 108 observations and 11 variables.",
+        "NOTE: Wrote Snake_at_BONA (7 rows, 18 columns).",
+        "NOTE: Exported 7 rows to ./Snake_BON_to_MCN_to_LGR_2008_01_18.csv."
+    ],
+    "log_does_not_contain": [
+        "ERROR:",
+        "[JENNER-ERROR"
+    ],
+    "output_contains": [
+        "Snake_at_BONA",
+        "ADJ_BON_MCN_RATE",
+        "RAW_MCN_LGR_RATE"
+    ],
+    "diagnostics": {
+        "parse_warnings": [],
+        "runtime_warnings": []
+    }
+}

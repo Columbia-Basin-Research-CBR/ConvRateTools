@@ -1,0 +1,9 @@
+{
+    "bundle": "t001_adults_at_any_ladder",
+    "source_file": "Methods/NMFS-Method/4 CPaulsen archived files/Paulsen 2002-2008/Charlie 08-2012/data/2008 SAS data extract pgms.sas",
+    "source_program": "adults at any ladder 1.sas (program 1 of 4 in the file)",
+    "source_blob_sha": "42eca42fb59bc81a753a863f259d96f9a9067fe0",
+    "source_commit": "5fb2911b692e8a74a4ed6976c1d79d2465df1caa",
+    "tier": "mock_data",
+    "notes": "First program in the file: selects the first BON/MCN/LGR/WELLS adult detection per tag_id, derives adult_year via year(datepart(max(obsdat8,obsdat9,obsdat10,obsdat27))) and age_at_return, then runs PROC CONTENTS/MEANS/FREQ. The PTAGIS source mergdata.all_to_01_2008 is not in the repo, so autoexec.sas builds a 13-row mock with the exact column shapes the program reads (tag_id BY var, the obsdat* detection datetimes, the per-site count flags, migration/tagging fields). libname paths redirected from the original D:/G: Windows paths to the bundle dir. The author's DATA-step logic, labels, and the three PROCs are kept verbatim. One cosmetic 'options sysprintfont=' line (printer font only, no analytic effect) was removed."
+}

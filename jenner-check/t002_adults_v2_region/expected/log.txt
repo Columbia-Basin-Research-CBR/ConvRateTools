@@ -1,0 +1,51 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: Library SASDATA assigned path=..
+NOTE: DATA sasdata.upstream_at_BON_v1
+
+NOTE: Processing inline DATALINES (12 lines)
+
+NOTE: Read 12 rows from DATALINES.
+NOTE: Wrote sasdata.upstream_at_BON_v1 (12 rows, 14 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to adults V2.sas.
+NOTE: Option LINESIZE changed to 133.
+NOTE: Option PAGESIZE changed to 60.
+NOTE: Option ORIENTATION changed to LANDSCAPE.
+NOTE: ODS HTML: Destination opened.
+NOTE: ODS Graphics is ON (width=640px, height=480px, format=SVG).
+NOTE: DATA sasdata.upstream_at_BON_v2
+
+
+NOTE: Read 12 rows from sasdata.upstream_at_BON_v1.
+NOTE: Wrote sasdata.upstream_at_BON_v2 (12 rows, 16 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 12 rows from .
+NOTE: Wrote  (12 rows, 16 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC CONTENTS data=sasdata.upstream_at_BON_v2
+
+NOTE: PROC CONTENTS completed: 12 observations, 16 variables
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_adult_year.spec.json
+NOTE: ODS plot written: freq_age_at_return.spec.json
+NOTE: ODS plot written: freq_mosaic_species_run.spec.json
+NOTE: ODS plot written: freq_mosaic_species_rear_type.spec.json
+NOTE: ODS plot written: freq_run.spec.json
+NOTE: ODS plot written: freq_migr_yr.spec.json
+NOTE: ODS plot written: freq_tag_km.spec.json
+NOTE: ODS plot written: freq_site.spec.json
+NOTE: ODS plot written: freq_coord_id.spec.json
+NOTE: ODS plot written: freq_mosaic_life_stage_region.spec.json
+NOTE: PROC FREQ statement used.

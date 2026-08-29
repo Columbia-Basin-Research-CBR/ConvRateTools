@@ -1,0 +1,43 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: Library MERGDATA assigned path=..
+NOTE: Library SASDATA assigned path=..
+NOTE: DATA mergdata.all_to_01_2008
+
+NOTE: Processing inline DATALINES (13 lines)
+
+NOTE: Read 13 rows from DATALINES.
+NOTE: Wrote mergdata.all_to_01_2008 (13 rows, 32 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to adults at any ladder 1.sas.
+NOTE: Option LINESIZE changed to 133.
+NOTE: Option PAGESIZE changed to 60.
+NOTE: Option ORIENTATION changed to LANDSCAPE.
+NOTE: DATA sasdata.upstream_at_BON_v1
+
+
+NOTE: Read 13 rows from mergdata.all_to_01_2008.
+NOTE: Wrote sasdata.upstream_at_BON_v1 (11 rows, 34 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC CONTENTS data=sasdata.upstream_at_BON_v1
+
+NOTE: PROC CONTENTS completed: 11 observations, 34 variables
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_adult_year.spec.json
+NOTE: ODS plot written: freq_age_at_return.spec.json
+NOTE: ODS plot written: freq_species.spec.json
+NOTE: ODS plot written: freq_rear_type.spec.json
+NOTE: ODS plot written: freq_run.spec.json
+NOTE: ODS plot written: freq_migr_yr.spec.json
+NOTE: ODS plot written: freq_tag_km.spec.json
+NOTE: ODS plot written: freq_site.spec.json
+NOTE: ODS plot written: freq_coord_id.spec.json
+NOTE: PROC FREQ statement used.

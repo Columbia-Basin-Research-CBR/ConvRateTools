@@ -1,0 +1,25 @@
+{
+    "_captured_at": "2026-06-13T16:20:00Z",
+    "_captured_run_id": "r_019ec1cab9947092aece8da42efff318",
+    "status": "ok",
+    "exit_code": 0,
+    "log_contains": [
+        "NOTE: Wrote mergdata.all_to_01_2008 (13 rows, 32 columns).",
+        "NOTE: DATA sasdata.upstream_at_BON_v1",
+        "NOTE: Wrote sasdata.upstream_at_BON_v1 (11 rows, 34 columns).",
+        "NOTE: PROC CONTENTS completed: 11 observations, 34 variables",
+        "NOTE: PROC FREQ statement used."
+    ],
+    "log_does_not_contain": [
+        "ERROR:",
+        "[JENNER-ERROR"
+    ],
+    "output_contains": [
+        "The MEANS Procedure",
+        "River KM of tagging"
+    ],
+    "diagnostics": {
+        "parse_warnings": [],
+        "runtime_warnings": []
+    }
+}
